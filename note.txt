@@ -1,0 +1,14 @@
+ctrl + shift + `
+-Repository :(kho chứa dữ liệu của git )
+ +thường được gọi ngắn gọn là repo
+ +Là nơi chứa toàn bộ mã nguồn .
+ +bao gồm toàn bộ các file và lịch sử các file đó .
+ +Chứa tất cả các commit . 
+ +Có 2 loại repository:
+    -Local repository : ở trên máy của lập trình viên .
+    -Remote Repository : ở trên 1 máy chủ chia sẻ (chẳng hạn như Github)
+
+Các câu lệnh cơ bản :
+    -git init :Khởi Tạo repository ở Local .
+    -git add . : đẩy tất cả các file vào 1 vùng nhớ .
+    
