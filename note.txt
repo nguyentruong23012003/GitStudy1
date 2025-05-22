@@ -9,6 +9,11 @@ ctrl + shift + `
     -Remote Repository : ở trên 1 máy chủ chia sẻ (chẳng hạn như Github)
 
 Các câu lệnh cơ bản :
+
+File trong máy | vùng bộ nhớ | Local Repo |Remote Repo
     -git init :Khởi Tạo repository ở Local .
-    -git add . : đẩy tất cả các file vào 1 vùng nhớ .
-    
+    -git add . : đẩy tất cả các file vào 1 vùng nhớ .(staging area)
+    -git commit -m "...":đẩy từ vùng nhớ tạm thời vào local reporitory và đánh dấu 1 mốc lịch sử tại đây 
+    -git remote.... :kết nối local với repository 
+    -git push origin master : đẩy những thay đổi từ local lên remote
+
